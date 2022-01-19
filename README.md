@@ -12,7 +12,15 @@ Every possible board state has a value associated with it. When the value of a s
 
 ## Implemented
 ### Chess
-For AI I have writtten, I used a templated unity chess game where no logic is given to. Only generating the chess board with the pieces on the right place with the right possible moves to. It just missed the logic to move a piece itself. Because with the template, you could only move it yourself against yourself.
+For AI I have writtten, I used a templated unity chess game where no AI logic is given to. There was only the logic of every piece and the board. It has made some datamaps to store that info in. It had some functionality in every piece where I could check if the position was possible. It had also a player class where logic was given so 2 players could play to each other. I changed it a bit so 1 player could be the AI. I wrote the MiniMax script that is controlled by the player AI and added some functionality.
+
+### AI
+So to calculate the position, I wrote a MiniMax script. A lot of sources on the internet uses an recursion function, so did I. This means that in the function, you call your function again. In the calculation. I make for every piece move a fake move so I could calculate the board value for every possible move the AI could do. Then it is very easy to get the best move because it is just the heighest boardvalue. To calculate if it is better or worser. I use a Beta and Alpha pruning. These variables stored by the AI to compare with each other to get the move with a higher score. That is also variables to cut the rest of the search, basically to optimize on its depth searching time. There is also a basic implementation of a weighted heuristic. This involves the position of each individual piece. A simple example would be having a knight near the middle of the board as it would open up more available moves for it, than being in a corner or side of the chess board.
+
 ## Problems
-## Evalution
+In the beginning, I tried to make my MiniMax function an iterative function. So I made a for loop till I reached my max depth. This was very difficult to do because there was a lot of variables I had to store. For performance, it was also a bad idea because you needed mor memory to stores these variables and he checked to much times a useless move. I also didn't use those beta and alpha variables. This was also stupid to do because I need to write more then needed because when you call yourself, you need to write it once.
+
+The depth is now 3 deep and I first checked it with 5 or 4 because normally then you could get a really good move. But it took to long to calculate the right position because it the time will almost go quadratic. 3 is now a good value for performance and time. If I did it to 2 it was fast but some moves are not that good. So I could win very easy. Now I still could win but there is more losing games then wins in it. There are also still some stupid moves that it could be a tie.
+
+## Conclusion
 ## Sources
