@@ -22,5 +22,9 @@ In the beginning, I tried to make my MiniMax function an iterative function. So 
 
 The depth is now 3 deep and I first checked it with 5 or 4 because normally then you could get a really good move. But it took to long to calculate the right position because it the time will almost go quadratic. 3 is now a good value for performance and time. If I did it to 2 it was fast but some moves are not that good. So I could win very easy. Now I still could win but there is more losing games then wins in it. There are also still some stupid moves that it could be a tie.
 
+Sometimes the AI can't calculate the right position and stays in an infinity loop or do the last move again an again so you couldn't win and he either. For example in the image below. I made a move with my pawn. And before I did a move with my knight and he moved his rook. Now he doesn't know what the right move is. Because he will check all the position and no matter which knight he will took, he is dead with his rook but those 2 knights always give each other a position. So the smartest thing to do is stay in this position and with the pawn is it the same. So he will check for the king and that is always a useless move so he wouldn't move that either.![width=25%](https://user-images.githubusercontent.com/70661716/150187535-871b9052-1a3f-4f5f-a87d-63fb17131282.png)
+
+
+
 ## Conclusion
 ## Sources
