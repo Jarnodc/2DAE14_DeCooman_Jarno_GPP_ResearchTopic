@@ -1,5 +1,6 @@
 # Chess AI BOT
 A bot that plays [Chess](https://en.wikipedia.org/wiki/Chess) using AI [Minimax](https://en.wikipedia.org/wiki/Minimax).
+![image](https://user-images.githubusercontent.com/70661716/150417511-cb5ed31b-2c05-4915-9e5c-329044622c54.png)
 
 ## Description
 ### How?
