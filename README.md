@@ -12,6 +12,8 @@ Minimax is a kind of backtracking algorithm that is often used for decision maki
 Every possible board state has a value associated with it. When the value of a square is possitive, you can say the maximizer should be in the upper hand. When it is negative, the minimizer is in the upper hand. And since this is a backtracking algorithm, it first calculates every possible move and then backtracks it to make a decision.
 
 ## Implemented
+<img src="https://user-images.githubusercontent.com/70661716/150419429-8dad2065-cd28-42b5-ac0e-077f6b96e35f.gif" img align="right" width="50%">
+
 ### Chess
 For AI I have writtten, I used a templated unity chess game where no AI logic is given to. There was only the logic of every piece and the board. It has made some datamaps to store that info in. It had some functionality in every piece where I could check if the position was possible. It had also a player class where logic was given so 2 players could play to each other. I changed it a bit so 1 player could be the AI. I wrote the MiniMax script that is controlled by the player AI and added some functionality.
 
