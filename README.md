@@ -36,9 +36,9 @@ When you think about performance, this AI is not the perfect algorithm to play c
 Overall this project has some issues but in most cases it will do it job. It will do some very good and smart moves but when it plays to a decent player, these moves aren't enough to win. I could make it better with this algorithm but that will cost the AI a lot of time to calculate and that is not fun for the other player. 
 
 ## Sources
-https://nl.wikipedia.org/wiki/Minimax
-https://www.youtube.com/watch?v=l-hh51ncgDI&ab_channel=SebastianLague
-https://terrencegamedev.wordpress.com/2018/05/14/minmax-chess-ai-unity/
-https://assetstore.unity.com/packages/templates/systems/chess-game-59341
-https://www.chessstrategyonline.com/content/tutorials/introduction-to-chess-strategy-positional-advantage
-https://byanofsky.com/2017/07/06/building-a-simple-chess-ai/
+* https://nl.wikipedia.org/wiki/Minimax
+* https://www.youtube.com/watch?v=l-hh51ncgDI&ab_channel=SebastianLague
+* https://terrencegamedev.wordpress.com/2018/05/14/minmax-chess-ai-unity/
+* https://assetstore.unity.com/packages/templates/systems/chess-game-59341
+* https://www.chessstrategyonline.com/content/tutorials/introduction-to-chess-strategy-positional-advantage
+* https://byanofsky.com/2017/07/06/building-a-simple-chess-ai/
