@@ -41,3 +41,4 @@ https://www.youtube.com/watch?v=l-hh51ncgDI&ab_channel=SebastianLague
 https://terrencegamedev.wordpress.com/2018/05/14/minmax-chess-ai-unity/
 https://assetstore.unity.com/packages/templates/systems/chess-game-59341
 https://www.chessstrategyonline.com/content/tutorials/introduction-to-chess-strategy-positional-advantage
+https://byanofsky.com/2017/07/06/building-a-simple-chess-ai/
